@@ -1,6 +1,7 @@
-assets/*
-!assets/.gitignore
-protected/runtime/*
-!protected/runtime/.gitignore
-protected/data/*.db
-themes/classic/views/
+files/*
+vendor
+.DS_Store
+Thumbs.db
+webheads/modules/*
+!webheads/modules/example1
+!webheads/modules/example2
