@@ -1,4 +1,5 @@
 files/*
+!files/example
 vendor
 .DS_Store
 Thumbs.db
