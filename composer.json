@@ -1,0 +1,30 @@
+{
+    "name": "whagency/php-cli-framework",
+    "description": "PHP CLI framework",
+    "keywords": ["cli", "console", "framework", "php", "cron"],
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "support": {
+        "source": "https://github.com/whagency/yii2-imagecache",
+        "issues": "https://github.com/whagency/yii2-imagecache/issues"
+    },
+    "authors": [
+        {
+            "name": "WebHeads",
+            "email": "dev@webheads.agency",
+            "homepage": "https://webheads.agency",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "phpoffice/phpspreadsheet": "^1.2",
+        "php-activerecord/php-activerecord": "^1.2",
+        "sybio/image-workshop": "^2.1",
+        "tinify/tinify": "^1.5",
+        "dariuszp/cli-progress-bar": "^1.0",
+        "league/climate": "^3.4",
+        "mpdf/mpdf": "^7.1"
+    }
+}
