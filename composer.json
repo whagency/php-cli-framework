@@ -6,8 +6,8 @@
     "license": "MIT",
     "minimum-stability": "stable",
     "support": {
-        "source": "https://github.com/whagency/yii2-imagecache",
-        "issues": "https://github.com/whagency/yii2-imagecache/issues"
+        "source": "https://github.com/whagency/php-cli-framework",
+        "issues": "https://github.com/whagency/php-cli-framework/issues"
     },
     "authors": [
         {
