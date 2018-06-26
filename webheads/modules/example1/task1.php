@@ -57,7 +57,7 @@ class Task1 extends Module
 
 
         // example of import excel to remote databse
-        $inputFileName = FILES_PATH . '/example/text.xlsx';
+        $inputFileName = FILES_PATH . '/example/test.xlsx';
         $inputFileType = IOFactory::identify($inputFileName);
         $reader = IOFactory::createReader($inputFileType);
         $spreadsheet = $reader->load($inputFileName);
@@ -79,7 +79,7 @@ class Task1 extends Module
         // example of export excel to pdf
         $reader = new Xlsx();
         $reader->setReadFilter(new ExcelReadFilter(1, 29, range('A', 'G'))); // read a part of excel file
-        $spreadsheet = $reader->load(FILES_PATH . '/example/text.xlsx');
+        $spreadsheet = $reader->load(FILES_PATH . '/example/test.xlsx');
         $writer = IOFactory::createWriter($spreadsheet, 'Mpdf');
         $writer->save(FILES_PATH . '/example/test.pdf');
 
