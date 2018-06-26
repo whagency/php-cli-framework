@@ -93,7 +93,7 @@ class Task1 extends Module
             Tinify\setKey("YOUR_API_KEY");
             $source = Tinify\fromFile($v);
             $name = Translit::t(basename($v));
-            $source->toFile(FILES_PATH.'/example/images/tinypng/.jpg');
+            $source->toFile(FILES_PATH.'/example/images/tinypng/'.$name);
         }
     }
 }
