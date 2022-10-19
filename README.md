@@ -1,9 +1,3 @@
-<p align="center">
-    <a href="https://webheads.agency/" target="_blank">
-        <img src="https://webheads.agency/files/images/LogoWebHeads.png" width="181" alt="WebHeads - Creative Web Agency">
-    </a>
-</p>
-
 # php-cli-framework
 
 PHP CLI framework - good console solution for developing and performing modules for regular tasks with CRON and casual one time tasks like operating with data of the remote databases, export and import popular datatypes, load and optimize images etc. 
